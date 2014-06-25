@@ -1,0 +1,103 @@
+
+{
+
+	"PubChromeFrameInstallerPrompt":"none",
+	"symbol_bird_flap":{
+		"element_${_flap}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"element_${_Rectangle2}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"}},
+	"pref__general__AutoKeyframeProperties":"true",
+	"UseCDN":"false",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"bird_flap\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }}\
+}",
+	"PosterImagePath":"images/Poster.png",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"PosterCapturePos":"9500",
+	"HTMLFileName":"bird-flap-loop.html",
+	"PubUseChromeFrameInstaller":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"bird_flap-Default Timeline_playhead_ms":"0",
+	"symbol_stage":{
+		"dummyStageParentWidth":"1024px",
+		"element_${_bird_flapCopy3}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
+			"animationEnabled":"true",
+			"usingMotionPaths":"false"},
+		"element_${_sky}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
+		"element_${_Rectangle}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${_bird_flapCopy2}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"animationEnabled":"true",
+			"usingMotionPaths":"false"},
+		"defaultStageParentHeight":"768px",
+		"element_${_bird_flapCopy}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"true",
+			"usingMotionPaths":"false"},
+		"element_${_RectangleCopy}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
+		"defaultStageParentWidth":"1024px",
+		"element_${_bird_flap}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true",
+			"usingMotionPaths":"true",
+			"scrubbingEnabled":"true"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentHeight":"768px"},
+	"TransitionIdCounter":"18",
+	"CompZoomFactor":"100",
+	"viewStartY":"0",
+	"pixelsPerMs":"0.078887000594752",
+	"PubDPS":"true",
+	"usedBOM":"false",
+	"nextElementColorIndex":"11",
+	"stage-Default Timeline_playhead_ms":"9500",
+	"StageZoomFactor":"50",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"stage-Default Timeline_mark_ms":"-1"}
