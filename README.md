@@ -1,6 +1,6 @@
 # Example Adobe Edge Animate Files with Javascript
 
-This repo containd specific Examples for adobe edge animate
+This repo contains specific Examples for adobe edge animate
 
 ## Examples
 
