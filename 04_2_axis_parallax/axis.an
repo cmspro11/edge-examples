@@ -22,8 +22,8 @@
 	"pref__general__AutoKeyframePropertiesArmed":"true",
 	"symbol_stage":{
 		"dummyStageParentWidth":"1000px",
-		"dummyStageParentHeight":"200px",
-		"defaultStageParentHeight":"200px",
+		"dummyStageParentHeight":"400px",
+		"defaultStageParentHeight":"400px",
 		"element_${_middleLayer}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
@@ -49,7 +49,7 @@
 	"CompZoomFactor":"100",
 	"viewStartY":"0",
 	"pixelsPerMs":"0.2",
-	"TransitionIdCounter":"15",
+	"TransitionIdCounter":"16",
 	"usedBOM":"false",
 	"nextElementColorIndex":"5",
 	"stage-Default Timeline_playhead_ms":"3003",

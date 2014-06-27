@@ -69,9 +69,10 @@ var symbols = {
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '1000px'],
-                ["style", "height", '200px'],
-                ["style", "overflow", 'auto']
+                ["style", "min-width", '0.1%'],
+                ["style", "overflow", 'scroll'],
+                ["style", "height", '400px'],
+                ["style", "width", '1000px']
             ]
         }
     },
@@ -83,7 +84,7 @@ var symbols = {
             autoPlay: false,
             timeline: [
                 { id: "eid3", tween: [ "style", "${_middleLayer}", "left", '257px', { fromValue: '53px'}], position: 0, duration: 3000 },
-                { id: "eid14", tween: [ "style", "${_Stage}", "height", '200px', { fromValue: '200px'}], position: 3003, duration: 0 },
+                { id: "eid15", tween: [ "style", "${_Stage}", "height", '400px', { fromValue: '400px'}], position: 3003, duration: 0 },
                 { id: "eid6", tween: [ "style", "${_topLayer}", "left", '174px', { fromValue: '213px'}], position: 0, duration: 3003 },
                 { id: "eid13", tween: [ "style", "${_Stage}", "width", '1000px', { fromValue: '1000px'}], position: 3003, duration: 0 },
                 { id: "eid1", tween: [ "style", "${_backLayer}", "left", '321px', { fromValue: '0px'}], position: 0, duration: 3000 },
