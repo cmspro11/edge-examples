@@ -1,3 +1,4 @@
+# Tricks
 
 
 ## Avoid Zoom
