@@ -12,7 +12,7 @@ grunt.initConfig({
   },
 })
 
-  grunt.loadNpmTasks('grunt-web-server');
+grunt.loadNpmTasks('grunt-web-server');
 
 
 };
