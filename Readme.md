@@ -20,12 +20,12 @@ This repo contains specific Examples for adobe edge animate
 
 ## More Documentation 
 
-* (Libraries to use with Edge)[Libs.md]
-* Tricks[Tricks.md]
+* [Libraries to use with Edge](Libs.md)
+* [Tricks](Tricks.md)
 
 ## Commands to use in this Repo 
 
-This repo comes with some handy tools that help you with development 
+This repo comes with some handy tools that help you with development. Before you are using this see ***setup***
 
 ### (Re-)Install all the libraries
 
