@@ -29,13 +29,15 @@ This repo comes with some handy tools that help you with development. Before you
 
 ### (Re-)Install all the libraries
 
+If you have changed some code in the plugins or libraries (they reside in the bower components folder) you can use the bower command. 
+
 ```
 bower install
 ```
 
 ### Start a webserver 
 
-There is a little webserver that serves files and gives you useful output in the terminal
+There is a little webserver that serves files and gives you useful output in the terminal. 
 
 ```
 grunt web_server
@@ -50,26 +52,18 @@ When ever you are making changes on the code in the repo, you might wanna execut
 ```
 grunt jshint
 ```
- 
-
-
-
-
-
-
-
 ## Setup 
 
-n order to work with this repository you may install some tools beforehand. These will help you with the examples and when you make changes to the source code.
+In order to work with this repository you may install some tools beforehand. These will help you with the examples and when you make changes to the source code.
 There are 3 main helpers that you will need. 
 
-* Node.js - Javascript for cour command line
-* Bower - Helps you find and install nice Javascript packages for your edge compositions
-* Grunt - Helps you build and maintain concise and error free javascript files. Grunt does all the "Grunt work"
+* [Node.js](http://nodejs.org) - Javascript for cour command line
+* [Bower](http://bower.io) Helps you find and install nice Javascript packages for your edge compositions
+* [Grunt](http://gruntjs.com) - Helps you build and maintain concise and error free javascript files. Grunt does all the "Grunt work"
 
 ### node.js 
 
-This is Javascript for your command line aka "Terminal". This is the plattform all other tools are build on.
+This is Javascript for your command line aka "Terminal". This is the plattform all other tools are build on. One important thing that comes with node is the ***npm*** commando. It is used to install helper linraries that work on your mac or a server to help you with development. 
 
 [HOWTO: Install and download node.js](http://coolestguidesontheplanet.com/installing-node-js-osx-10-9-mavericks/)
 
@@ -78,14 +72,19 @@ Wikipedia says:
 > Node.js is a software platform for scalable server-side and networking applications. Node.js applications are written in JavaScript. All of the popular server operating systems are supported, including Windows and Linux.[3]
 Node.js applications are designed to maximize throughput and efficiency, using non-blocking I/O and asynchronous events. Node.js applications run single-threaded, although Node.js uses multiple threads for file and network events. Node.js is commonly used for real time applications due to its asynchronous nature, allowing applications to display information faster for users without the need for refreshing. 
 
+Install [Node.js](http://nodejs.org) from the website.
+
 ### Grunt
 
 Grunt automates checking your script files and provides you with a more advaced webserver capability. 
 
 Install Grunt with a simple command in your shell
 
+
+> In order to get started, you'll want to install Grunt's command line interface (CLI) globally. You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
+
 ```
-curl grunt.io
+sudo npm install -g grunt-cli
 ```
 
 * Check Javascript files for errors 
@@ -99,23 +98,12 @@ In one word: automation. The less work you have to do when performing repetitive
 
 ### Bower
 
-
-Install Bower wioth a command in your terminal 
+Bower is a command line utility. Install it with npm.
 
 ```
-curl bower
+npm install -g bower
 ```
 
 Wikipedia says: 
 
 > Bower is a package management system for the World Wide Web. It depends on Node.js and npm. It works with git and GitHub repositories.
-
-## Examples
-
-* Use symbols with code
-* play, stsop and rewind a timeline with clicks
-* play audio
-* Parallax Scrolling
-* Using Device orientation
-* use the resize event to view different symbols
-* shake the device to trigger something
