@@ -35,16 +35,11 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"true",
 			"timelineColor":"0xeedf79"}},
-	"TransitionIdCounter":"16",
+	"PreloadAudio":"auto",
 	"CompZoomFactor":"100",
 	"viewStartY":"0",
 	"pixelsPerMs":"0.2",
-	"stage-Default Timeline_mark_ms":"-1",
-	"PreloadAudio":"auto",
-	"usedBOM":"false",
-	"nextElementColorIndex":"6",
-	"pref__general__GenerateSmoothTransitions":"true",
-	"StageZoomFactor":"100",
+	"stage-Default Timeline_playhead_ms":"3003",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -60,4 +55,9 @@
 \
    }}\
 }",
-	"stage-Default Timeline_playhead_ms":"3003"}
+	"stage-Default Timeline_mark_ms":"-1",
+	"nextElementColorIndex":"6",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"StageZoomFactor":"100",
+	"TransitionIdCounter":"16",
+	"usedBOM":"false"}
