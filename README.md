@@ -24,16 +24,22 @@ Node.js applications are designed to maximize throughput and efficiency, using n
 
 ### Grunt
 
+Grunt automates checking your script files and provides you with a more advaced webserver capability. 
+
+* Check Javascript files for errors 
+* Provide a webserver to serve files
+* COMING: Live Reload 
+
 Wikipedia says: 
 
 > Why use a task runner?
 In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you've configured it, a task runner can do most of that mundane work for you—and your team—with basically zero effort.
 
-
-
-
 ### Bower
 
+Wikipedia says: 
+
+> Bower is a package management system for the World Wide Web. It depends on Node.js and npm. It works with git and GitHub repositories.
 
 ## Examples
 
