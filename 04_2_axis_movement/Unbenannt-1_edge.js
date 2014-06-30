@@ -26,7 +26,13 @@ var symbols = {
     resizeInstances: false,
     content: {
             dom: [
-],
+            {
+                id: 'img_background',
+                type: 'image',
+                rect: ['0', '0','2560px','1600px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"16960-code-2560x1600-computer-wallpaper.jpg",'0px','0px'],
+                userClass: "main"
+            }],
             symbolInstances: [
 
             ]
@@ -35,9 +41,9 @@ var symbols = {
         "Base State": {
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '550px'],
-                ["style", "height", '400px'],
-                ["style", "overflow", 'hidden']
+                ["style", "overflow", 'scroll'],
+                ["style", "height", '920px'],
+                ["style", "width", '1080px']
             ]
         }
     },

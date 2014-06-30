@@ -21,6 +21,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // Aliase für häufig
       Symbol.bindElementAction(compId, symbolName, "${_Stage}", "touchmove", function(sym, e) {
         
       });
+       
+       
+       
       //Edge binding end
 
    })("stage");
