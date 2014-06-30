@@ -2,6 +2,62 @@
 
 This repo contains specific Examples for adobe edge animate
 
+## The Examples
+
+* (Working with Symbols using Javascript)[01_symbol/Readme.md]
+* (Play stop and rewind thw timeline, using Javascript)[02_play_stop_rewind/Readme.md]
+* (Play audio using code)[03_play_audio
+* (How to scoll on a very big backgorund)[04_2_axis_movement/Readme.md]
+* (Use device orientation)[05_device_orientation/Readme.md]
+* (Do something when the browser resizes)[06_resize/Readme.md]
+* (React on the user shaking the device)[07_shake_js/Readme.md]
+* (Make specific settings for IOS and iPads)[08_iOS_webapp_settings/Readme.md]
+* (Use sprite animations)[09_sprite_animation/Readme.md]
+* (Drag and drop items)[10_drag_drop/Readme.md]
+* (Zoo to scene on a click)[11_zoom_to_scene/Readme.md]
+* (Check device tilt and act on it)[12_tilt/Readme.md]
+* (Scroll smooth)[13_smooth_scroll_animation/Readme.md]
+
+## More Documentation 
+
+* (Libraries to use with Edge)[Libs.md]
+* Tricks[Tricks.md]
+
+## Commands to use in this Repo 
+
+This repo comes with some handy tools that help you with development 
+
+### (Re-)Install all the libraries
+
+```
+bower install
+```
+
+### Start a webserver 
+
+There is a little webserver that serves files and gives you useful output in the terminal
+
+```
+grunt web_server
+```
+
+### Validate your sourcecode
+
+Adobe Edge and the browser is very picky about the Javascritp it is executing. The basic formatiing rules and some sanity checks for stuff you could do in Javascript, but you shouldn't, is validated by ***jshint***. 
+
+When ever you are making changes on the code in the repo, you might wanna execute it to check for errors
+
+```
+grunt jshint
+```
+ 
+
+
+
+
+
+
+
 ## Setup 
 
 n order to work with this repository you may install some tools beforehand. These will help you with the examples and when you make changes to the source code.
