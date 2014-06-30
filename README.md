@@ -26,6 +26,12 @@ Node.js applications are designed to maximize throughput and efficiency, using n
 
 Grunt automates checking your script files and provides you with a more advaced webserver capability. 
 
+Install Grunt with a simple command in your shell
+
+```
+curl grunt.io
+```
+
 * Check Javascript files for errors 
 * Provide a webserver to serve files
 * COMING: Live Reload 
@@ -37,6 +43,13 @@ In one word: automation. The less work you have to do when performing repetitive
 
 ### Bower
 
+
+Install Bower wioth a command in your terminal 
+
+```
+curl bower
+```
+
 Wikipedia says: 
 
 > Bower is a package management system for the World Wide Web. It depends on Node.js and npm. It works with git and GitHub repositories.
@@ -44,7 +57,7 @@ Wikipedia says:
 ## Examples
 
 * Use symbols with code
-* play, stop and rewind a timeline with clicks
+* play, stsop and rewind a timeline with clicks
 * play audio
 * Parallax Scrolling
 * Using Device orientation
