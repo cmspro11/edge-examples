@@ -14,10 +14,11 @@ You can get a symbol by its name and control it's timeline
 sym.getSymbol('sym_hello_world').stop();
 ````
 
-You can interact with the symbol using jQuery vir the $ member variable. 
+You can interact with the symbol using jQuery via the $ member variable. 
 
+This example hides the recangle in the symbol
 ```javascript
-sym.getSymbol('sym_hello_world').$
+sym.getSymbol('sym_hello_world').$('rect_hello_world').hide();
 ````
 
 ## Naming conventions

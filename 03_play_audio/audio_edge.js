@@ -69,9 +69,9 @@ var symbols = {
         "Base State": {
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "overflow", 'hidden'],
+                ["style", "width", '550px'],
                 ["style", "height", '400px'],
-                ["style", "width", '550px']
+                ["style", "overflow", 'hidden']
             ]
         }
     },
@@ -99,18 +99,18 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
+                    rect: ['0px', '0px', '181px', '80px', 'auto', 'auto'],
                     id: 'rect_track_1',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    rect: ['0px', '0px', '181px', '80px', 'auto', 'auto'],
+                    type: 'rect',
                     fill: ['rgba(192,192,192,1)'],
                     c: [
                     {
-                        rect: ['51px', '26px', 'auto', 'auto', 'auto', 'auto'],
+                        font: ['Arial, Helvetica, sans-serif', 24, 'rgba(0,0,0,1)', 'normal', 'none', ''],
                         id: 'txt_track_1',
                         text: 'Track 1<br>',
-                        font: ['Arial, Helvetica, sans-serif', 24, 'rgba(0,0,0,1)', 'normal', 'none', ''],
-                        type: 'text'
+                        type: 'text',
+                        rect: ['51px', '26px', 'auto', 'auto', 'auto', 'auto']
                     }]
                 }
             ],
@@ -119,15 +119,15 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_rect_track_1}": [
-                ["style", "top", '0px'],
-                ["style", "height", '80px'],
-                ["style", "left", '0px'],
-                ["style", "width", '181px']
-            ],
             "${_txt_track_1}": [
                 ["style", "left", '51px'],
                 ["style", "top", '26px']
+            ],
+            "${_rect_track_1}": [
+                ["style", "height", '80px'],
+                ["style", "top", '0px'],
+                ["style", "left", '0px'],
+                ["style", "width", '181px']
             ],
             "${symbolSelector}": [
                 ["style", "height", '80px'],
@@ -159,19 +159,19 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '181px', '80px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'rect_track_2',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    type: 'rect',
+                    rect: ['0px', '0px', '181px', '80px', 'auto', 'auto'],
                     fill: ['rgba(192,192,192,1)'],
                     c: [
                     {
-                        rect: ['51px', '26px', 'auto', 'auto', 'auto', 'auto'],
                         font: ['Arial, Helvetica, sans-serif', 24, 'rgba(0,0,0,1)', '400', 'none', 'normal'],
+                        type: 'text',
                         id: 'txt_track_2',
                         text: 'Track 2<br>',
                         align: 'left',
-                        type: 'text'
+                        rect: ['51px', '26px', 'auto', 'auto', 'auto', 'auto']
                     }]
                 }
             ],
@@ -180,18 +180,18 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
+            "${_rect_track_2}": [
+                ["style", "top", '0px'],
                 ["style", "height", '80px'],
+                ["style", "left", '0px'],
                 ["style", "width", '181px']
             ],
             "${_txt_track_2}": [
                 ["style", "top", '26px'],
                 ["style", "left", '51px']
             ],
-            "${_rect_track_2}": [
+            "${symbolSelector}": [
                 ["style", "height", '80px'],
-                ["style", "top", '0px'],
-                ["style", "left", '0px'],
                 ["style", "width", '181px']
             ]
         }
@@ -220,19 +220,19 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '181px', '80px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'rect_track_3',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    type: 'rect',
+                    rect: ['0px', '0px', '181px', '80px', 'auto', 'auto'],
                     fill: ['rgba(192,192,192,1)'],
                     c: [
                     {
-                        font: ['Arial, Helvetica, sans-serif', 24, 'rgba(0,0,0,1)', '400', 'none', 'normal'],
                         type: 'text',
+                        rect: ['51px', '26px', 'auto', 'auto', 'auto', 'auto'],
                         id: 'txt_track_3',
                         text: 'Track 3',
                         align: 'left',
-                        rect: ['51px', '26px', 'auto', 'auto', 'auto', 'auto']
+                        font: ['Arial, Helvetica, sans-serif', 24, 'rgba(0,0,0,1)', '400', 'none', 'normal']
                     }]
                 }
             ],
@@ -242,8 +242,8 @@ var symbols = {
     states: {
         "Base State": {
             "${_rect_track_3}": [
-                ["style", "top", '0px'],
                 ["style", "height", '80px'],
+                ["style", "top", '0px'],
                 ["style", "left", '0px'],
                 ["style", "width", '181px']
             ],

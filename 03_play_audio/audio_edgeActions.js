@@ -15,6 +15,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // Aliase für häufig
       
       Symbol.bindElementAction(compId, symbolName, "${_sym_track_1}", "click", function(sym, e) {
          sym.getSymbol('sym_track_1').getVariable('audio').play();
+         sym.getSymbol('sym_track_2').getVariable('audio').pause();
+         sym.getSymbol('sym_track_2').getVariable('audio').oause();
          
 
       });
@@ -32,6 +34,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // Aliase für häufig
 
       Symbol.bindElementAction(compId, symbolName, "${_sym_track_3}", "click", function(sym, e) {
          sym.getSymbol('sym_track_3').getVariable('audio').play();
+         sym.getSymbol('sym_track_2').getVariable('audio').pause();
+         sym.getSymbol('sym_track_1').getVariable('audio').pause();
+         
+         
+         
          
 
       });
