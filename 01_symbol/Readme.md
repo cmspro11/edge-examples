@@ -1,6 +1,6 @@
 # Using Symbols with Javascript 
 
-A example for
+An example for
 
 * Putting Elements inside a Symbol
 * Naming conventions for symbols, and other elements
