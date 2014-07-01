@@ -32,16 +32,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // Aliase für häufig
       //Edge binding end
 
       Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
-         
-         yepnope({
-           load: ["bower_components/greensock/src/uncompressed/TweenMax.js"],
-           callback: {
-             "TweenMax.js": function () {
-               console.log("TweenMax loaded!");
-             }
-           }
-         });
-         
+
          // execute code when you move the device
          window.addEventListener('devicemotion', function(event) {
              e = event;
