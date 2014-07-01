@@ -35,8 +35,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // Aliase für häufig
 
          // execute code when you move the device
          window.addEventListener('devicemotion', function(event) {
-             e = event;
-             
              // how fast is it moving ? 
              var x = event.accelerationIncludingGravity.x;
              var y = event.accelerationIncludingGravity.y;
