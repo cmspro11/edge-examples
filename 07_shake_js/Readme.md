@@ -7,6 +7,14 @@ Adobe Edge example for
 * load a 3rd part library
 * use greensock for animations
 
+## Important
+
+```Javascript
+
+```
+
+
+
 ## Links
 
 * [Shake.js documentation](https://github.com/alexgibson/shake.js/)
