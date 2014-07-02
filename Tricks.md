@@ -1,7 +1,7 @@
 # Tricks
 
 * [Edge, the GPU and Perforance](http://therichwebexperience.com/blog/terry_ryan/2013/03/adobe_edge_animate_and_the_gpu)
-
+* [Performance Animation Howto](https://gist.github.com/KrofDrakula/3639830)
 ## Avoid Zoom
 
 ```   
