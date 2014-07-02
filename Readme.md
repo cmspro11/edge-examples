@@ -11,10 +11,10 @@ This repo contains specific Examples for adobe edge animate
 * [Use device orientation](05_device_orientation/Readme.md)
 * [Do something when the browser resizes](06_resize/Readme.md)
 * [React on the user shaking the device](07_shake_js/Readme.md)
-* [(Make specific settings for IOS and iPads](08_iOS_webapp_settings/Readme.md)
+* [Make specific settings for IOS and iPads](08_iOS_webapp_settings/Readme.md)
 * [Use sprite animations](09_sprite_animation/Readme.md)
 * [Drag and drop items](10_drag_drop/Readme.md)
-* [Zoo to scene on a click](11_zoom_to_scene/Readme.md)
+* [Zoom to scene on a click](11_zoom_to_scene/Readme.md)
 * [Check device tilt and act on it](12_tilt/Readme.md)
 * [Scroll smooth](13_smooth_scroll_animation/Readme.md)
 
