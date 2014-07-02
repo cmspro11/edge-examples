@@ -3,9 +3,23 @@
 
 	"HTMLFileName":"axis.html",
 	"pref__general__AutoKeyframeProperties":"true",
-	"expanded:images/16960-code-2560x1600-computer-wallpaper.jpg":"nil",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Abwärtskompatibel\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
 	"pref__general__FilterNonAnimatedElements":"false",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
 	"symbol_stage":{
 		"element_${_back}":{
 			"timelineColor2":"0x168c84",
@@ -39,25 +53,11 @@
 	"CompZoomFactor":"100",
 	"viewStartY":"0",
 	"pixelsPerMs":"0.2",
-	"stage-Default Timeline_playhead_ms":"3003",
-	"ModelData":"{\
-\"stage\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"Preloader\": {\
-   \"timelines\": {\
-\
-   }},\
-\"Abwärtskompatibel\": {\
-   \"timelines\": {\
-\
-   }}\
-}",
+	"usedBOM":"false",
+	"TransitionIdCounter":"16",
 	"stage-Default Timeline_mark_ms":"-1",
 	"nextElementColorIndex":"6",
-	"pref__general__GenerateSmoothTransitions":"true",
+	"stage-Default Timeline_playhead_ms":"3003",
 	"StageZoomFactor":"100",
-	"TransitionIdCounter":"16",
-	"usedBOM":"false"}
+	"expanded:images/16960-code-2560x1600-computer-wallpaper.jpg":"nil",
+	"pref__general__GenerateSmoothTransitions":"true"}

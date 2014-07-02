@@ -12,6 +12,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // Aliase für häufig
    //Edge symbol: 'stage'
    (function(symbolName) {
        
+      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
+         sym.$('Stage').animate({scrollTop: 900, scrollLeft: 900 }, 0, "swing");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 

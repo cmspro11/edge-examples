@@ -25,6 +25,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
+         sym.$("wrapper").animate({scrollTop: 200, scrollLeft: 200 }, 1000, "swing");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 

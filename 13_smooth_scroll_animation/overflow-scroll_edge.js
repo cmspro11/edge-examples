@@ -66,9 +66,9 @@ var symbols = {
             ],
             "${_Stage}": [
                 ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '1024px'],
+                ["style", "overflow", 'hidden'],
                 ["style", "height", '768px'],
-                ["style", "overflow", 'hidden']
+                ["style", "width", '1024px']
             ]
         }
     },
@@ -96,17 +96,17 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '627px', '484px', 'auto', 'auto'],
+                    type: 'rect',
                     id: 'Rectangle',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    type: 'rect',
+                    rect: ['0px', '0px', '627px', '484px', 'auto', 'auto'],
                     fill: ['rgba(192,192,192,1)']
                 },
                 {
-                    rect: ['-950px', '-384px', '3800px', '1536px', 'auto', 'auto'],
+                    transform: [[0, 0], [], [], ['0.5', '0.5']],
                     id: 'stadt-012',
-                    transform: [[], [], [], ['0.5', '0.5']],
                     type: 'image',
+                    rect: ['-950px', '-384px', '3800px', '1536px', 'auto', 'auto'],
                     fill: ['rgba(0,0,0,0)', 'images/stadt-01.png', '0px', '0px']
                 },
                 {
@@ -139,8 +139,8 @@ var symbols = {
             ],
             "${symbolSelector}": [
                 ["style", "height", '484px'],
-                ["style", "overflow", 'scroll'],
-                ["style", "width", '627px']
+                ["style", "width", '627px'],
+                ["style", "overflow", 'scroll']
             ]
         }
     },
@@ -168,10 +168,10 @@ var symbols = {
     content: {
             dom: [
                 {
-                    type: 'rect',
+                    rect: ['0px', '0px', '99px', '120px', 'auto', 'auto'],
                     id: 'Rectangle2',
                     stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    rect: ['0px', '0px', '99px', '120px', 'auto', 'auto'],
+                    type: 'rect',
                     fill: ['rgba(192,192,192,1)']
                 }
             ],
@@ -180,14 +180,14 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${symbolSelector}": [
-                ["style", "height", '120px'],
-                ["style", "width", '99px']
-            ],
             "${_Rectangle2}": [
                 ["style", "top", '0px'],
                 ["style", "left", '0px'],
                 ["style", "overflow", 'visible']
+            ],
+            "${symbolSelector}": [
+                ["style", "height", '120px'],
+                ["style", "width", '99px']
             ]
         }
     },

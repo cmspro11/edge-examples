@@ -1,7 +1,7 @@
 
 {
 
-	"button-Default Timeline_playhead_ms":"0",
+	"HTMLFileName":"overflow-scroll.html",
 	"wrapper-Default Timeline_playhead_ms":"0",
 	"symbol_button":{
 		"element_${_Rectangle2}":{
@@ -28,7 +28,7 @@
    \"timelines\": {\
 \
    }},\
-\"Down-level\": {\
+\"Abwärtskompatibel\": {\
    \"timelines\": {\
 \
    }}\
@@ -53,7 +53,7 @@
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa"}},
 	"pref__general__FilterNonAnimatedElements":"false",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"symbol_stage":{
 		"element_${_buttonCopy}":{
 			"timelineColor2":"0xba5b89",
@@ -76,15 +76,15 @@
 			"timelineColor3":"0x7e4b52",
 			"timelineColor":"0xfb657a"},
 		"defaultStageParentWidth":"1024px",
-		"element_${_Stage}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
 		"element_${_Rectangle}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
 			"animationEnabled":"false",
 			"timelineColor":"0x2f73ad"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
 		"element_${_wrapper}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
@@ -100,4 +100,4 @@
 	"stage-Default Timeline_playhead_ms":"0",
 	"expanded:images/stadt-01.png":"nil",
 	"StageZoomFactor":"100",
-	"HTMLFileName":"overflow-scroll.html"}
+	"button-Default Timeline_playhead_ms":"0"}
