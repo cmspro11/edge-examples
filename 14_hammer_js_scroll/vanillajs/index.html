@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hammer Test</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="../bower_components/hammerjs/hammer.js"></script>
+    <script>
+        var logGesture = function(gesture) {
+            var log = document.getElementById('log').innerHTML;
+            log = log + ' ' + gesture;
+            document.getElementById('log').innerHTML = log;
+        }
+    
+        
+         Hammer(document).on("swipe", function(evt) {
+			logGesture("swipe");
+		 });
+        
+        Hammer(document).on("swipeleft", function(evt) {
+			logGesture("swipeleft");
+		 });
+        
+        Hammer(document).on("swiperight", function(evt) {
+			logGesture("swiperight");
+		 });
+        
+        Hammer(document).on("swipeup", function(evt) {
+			logGesture("swipeleft");
+		 });
+        
+        Hammer(document).on("swipedown", function(evt) {
+			logGesture("swipeleft");
+		 });
+        
+         Hammer(document).on("touchmove", function(evt) {
+			evt.preventDefault();
+		 });     
+        
+        
+        
+         /*
+         Hammer(document).on("doubletap", function(evt) {
+			logGesture("doubletap");
+		 });
+        
+         Hammer(document).on("tap", function(evt) {
+			logGesture("tap");
+		 });
+        */  
+   
+         
+        
+    </script>
+  </head>
+  <body>
+    <p id="log">log</p>
+  </body>
+</html>
