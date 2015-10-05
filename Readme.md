@@ -7,7 +7,7 @@ This repo contains specific Examples for adobe edge animate
 * [Working with Symbols using Javascript](01_symbol/Readme.md)
 * [Play stop and rewind thw timeline, using Javascript](02_play_stop_rewind/Readme.md)
 * [Play audio using code](03_play_audio)
-* [How to scoll on a very big backgorund](04_2_axis_movement/Readme.md)
+* [How to scoll on a very big background](04_2_axis_movement/Readme.md)
 * [Use device orientation](05_device_orientation/Readme.md)
 * [Do something when the browser resizes](06_resize/Readme.md)
 * [React on the user shaking the device](07_shake_js/Readme.md)
